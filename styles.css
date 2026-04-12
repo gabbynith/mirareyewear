@@ -214,7 +214,7 @@ transition: border-color 0.3s, background 0.3s;
 }
 .product-card:hover { background: #363632; border-bottom-color: var(--lavender); }
 .product-frame {
-width: 100%; height: 120px;
+width: 100%; height: 180px;
 display: flex; align-items: center; justify-content: center;
 margin-bottom: 28px; opacity: 0.85;
 }
