@@ -291,6 +291,14 @@ display: block;
 .photo-strip-cell img[src=""] {
 display: none;
 }
+@media (max-width: 900px) {
+  .photo-strip {
+    height: 180px;
+  }
+  .photo-strip-cell {
+    height: 180px;
+  }
+}
 
 /* ── WAITLIST ── */
 .waitlist { background: var(--ivory); padding: 100px 64px; }
